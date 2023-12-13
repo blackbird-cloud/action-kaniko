@@ -1,6 +1,6 @@
 # kaniko.yml
-name: "Kaniko builder"
-description: "Build and push docker images using Kaniko"
+name: "Blackbird Cloud Kaniko builder"
+description: "Build and push docker images using Kaniko."
 branding:
   icon: anchor
   color: orange
@@ -59,4 +59,4 @@ inputs:
     required: false
 runs:
   using: "docker"
-  image: docker://blackbirdcloud/action-kaniko:1.0.0
+  image: docker://blackbirdcloud/action-kaniko:1.0.1
